@@ -35,7 +35,7 @@ public class AfishaManager {
         for (int i = 0; i < countFilms; i++) {
             int index = items.length - i - 1;
             if (items[index] != null) {
-             draftResult[counter] = items[index];
+                draftResult[counter] = items[index];
                 counter += 1;
             }
         }
